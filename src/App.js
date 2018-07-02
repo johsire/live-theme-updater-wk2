@@ -7,7 +7,6 @@ import ColorChanger from './components/ColorChanger';
 import SizeChanger from './components/SizeChanger';
 import FamilyChanger from './components/FamilyChanger';
 import TextContainer from './components/TextContainer';
-import ColorChanger from './components/ColorChanger';
 
 class App extends Component {
   constructor() {
