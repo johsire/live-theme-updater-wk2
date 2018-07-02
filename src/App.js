@@ -19,13 +19,21 @@ class App extends Component {
     };
   }
 
-  // updateColor
+  updateColor(val) {
+    this.setState({ fontColor: val });
+  }
 
-  // updateSize
+  updateSize(val) {
+    this.setState({ fontSize: val });
+  }
 
-  // updateFamily
+  updateFamily(val) {
+    this.setState({ fontFamily: val });
+  }
 
-  // updateEditStatus
+  updateEditStatus(val) {
+    this.setState({ allowEdit: val });
+  }
 
   render() {
     return (
