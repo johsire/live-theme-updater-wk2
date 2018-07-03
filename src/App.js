@@ -17,6 +17,10 @@ class App extends Component {
       fontFamily: 'monospace',
       allowEdit: 'true'
     };
+    this.updateColor = this.updateColor.bind(this);
+    this.updateSize= this.updateSize.bind(this);
+    this.updateFamily = this.updateFamily.bind(this);
+    this.updateEditStatus = this.updateEditStatus.bind(this);
   }
 
   updateColor(val) {
